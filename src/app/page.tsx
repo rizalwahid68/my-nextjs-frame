@@ -1,11 +1,7 @@
+// src/app/page.tsx
 import Head from 'next/head';
-import { useEffect } from 'react';
 
 export default function Home() {
-  useEffect(() => {
-    console.log(document.head.innerHTML);
-  }, []);
-
   return (
     <>
       <Head>
